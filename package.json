@@ -1,10 +1,12 @@
 {
   "type": "module",
   "scripts": {
-    "start": "nodemon --watch * ./CRON/app.js"
+    "start": "nodemon --watch * ./RabbitMQ/producer.js",
+    "start1": "nodemon --watch * ./RabbitMQ/consumer.js"
   },
   "dependencies": {
     "@types/mongoose": "^5.11.97",
+    "amqplib": "^0.10.3",
     "cron": "^2.4.1",
     "express": "^4.18.2",
     "mongodb": "^5.7.0",
