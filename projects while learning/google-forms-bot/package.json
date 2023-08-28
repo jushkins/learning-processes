@@ -1,0 +1,23 @@
+{
+  "name": "google-forms-bot",
+  "version": "1.0.0",
+  "description": "Google docs bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --watch * ./poll"
+  },
+  "author": "jushkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.2",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
